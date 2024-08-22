@@ -1,0 +1,93 @@
+{
+	"id": "9f642f44-f6b9-4326-b1c8-4a947a3b5cb5",
+	"name": "API collection",
+	"timestamp": "2024-08-22T20:34:00.961Z",
+	"collection_id": "37753882-b8dd4d8e-cda8-4c44-b661-6992b1b8c9b4",
+	"folder_id": 0,
+	"environment_id": "37753882-52781ade-c90b-4f53-aac1-4f7a5f94906d",
+	"totalPass": 2,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-22T20:33:58.970Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "27ad6205-a46b-427f-ab83-9bb9b33057f7",
+			"name": "New Request",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 507,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Your test name": false,
+				"Body matches string": false,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				507
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Your test name": false,
+					"Body matches string": false,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "53ee082a-31a0-4370-9c4e-e5a6ff464d7c",
+			"name": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"url": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
+			"time": 774,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				774
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1281,
+	"collection": {
+		"requests": [
+			{
+				"id": "27ad6205-a46b-427f-ab83-9bb9b33057f7",
+				"method": "GET"
+			},
+			{
+				"id": "53ee082a-31a0-4370-9c4e-e5a6ff464d7c",
+				"method": "GET"
+			}
+		]
+	}
+}
